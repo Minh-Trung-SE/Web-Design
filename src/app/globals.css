@@ -3,54 +3,54 @@
 @tailwind utilities;
 
 * {
-    font-family: "DM Sans", sans-serif;
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
+  font-family: "DM Sans", sans-serif;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 *::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
+  width: 8px;
+  height: 8px;
 }
 
 *::-webkit-scrollbar-thumb {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 *::-webkit-scrollbar-thumb {
-    background: #606060;
+  background: #606060;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-    background: #909090;
+  background: #909090;
 }
 
 .dark *::-webkit-scrollbar-thumb {
-    background: #aaaaaa;
+  background: #aaaaaa;
 }
 
 .dark *::-webkit-scrollbar-thumb:hover {
-    background: #717171;
+  background: #717171;
 }
 
 *::-webkit-scrollbar-track {
-    background: transparent;
+  background: transparent;
 }
 
 .scrollbar-sm::-webkit-scrollbar {
-    width: 4px;
-    height: 4px;
+  width: 4px;
+  height: 4px;
 }
 .scrollbar-xs::-webkit-scrollbar {
-    width: 3px;
-    height: 3px;
+  width: 3px;
+  height: 3px;
 }
 
 .scrollbar-none::-webkit-scrollbar {
-    width: 0;
-    height: 0;
+  width: 0;
+  height: 0;
 }
 
 html{
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }

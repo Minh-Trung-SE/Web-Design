@@ -1,5 +1,6 @@
+import Container from "@src/components/Container";
 import React from 'react';
-import Container from "components/Container";
+
 
 const Team = () => {
     const members = [

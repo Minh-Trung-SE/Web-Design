@@ -1,6 +1,7 @@
+import Copyright from "@src/components/Footer/elements/Copyright";
+import Main from "@src/components/Footer/elements/Main";
 import React from 'react';
-import Copyright from "components/Footer/elements/Copyright.tsx";
-import Main from "components/Footer/elements/Main.tsx";
+
 
 const Footer = () => {
     return (

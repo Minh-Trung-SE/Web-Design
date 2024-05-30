@@ -1,6 +1,7 @@
+import Container from "@src/components/Container";
+import Logo from "@src/components/Header/elements/Logo";
 import React, {FC, HTMLAttributes} from 'react';
-import Logo from "components/Header/elements/Logo.tsx";
-import Container from "components/Container";
+
 
 const Main: FC<HTMLAttributes<HTMLDivElement>> = ({className = "p-5 rounded space-y-10", ...props}) => {
     return (

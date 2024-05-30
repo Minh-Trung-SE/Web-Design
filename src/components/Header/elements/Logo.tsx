@@ -1,15 +1,16 @@
+import Link, {LinkProps} from "next/link";
 import React, {FC} from 'react';
-import {Link, LinkProps} from "react-router-dom";
 import {twMerge} from "tailwind-merge";
 
-type LogoProps = Omit<LinkProps, "to"> & {
-    to?: string;
+type LogoProps = Omit<LinkProps, "href"> & {
+    href?: URL
+    className?: string
 }
 
-const Logo: FC<LogoProps> = ({to = "", className, ...props}) => {
+const Logo: FC<LogoProps> = ({href = "", className, ...props}) => {
     return (
         <Link
-            to={to}
+            href={href}
             {...props}
             className={twMerge("h-8 flex items-center space-x-1 hover:opacity-90 transition-opacity", className)}
         >

@@ -1,7 +1,8 @@
-import Logo from "components/Header/elements/Logo.tsx";
+import Container from "@src/components/Container";
+import Logo from "@src/components/Header/elements/Logo";
 import {FC, HTMLAttributes} from "react";
 import {twMerge} from "tailwind-merge";
-import Container from "components/Container";
+
 
 const Header: FC<HTMLAttributes<HTMLHeadElement>> = ({className, ...props}) => {
     return (
