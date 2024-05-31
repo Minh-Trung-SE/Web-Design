@@ -14,11 +14,11 @@ const TextInput: FC<TextInputProps> = ({controller, className, wrapperClassName,
     return (
         <div
             aria-invalid={fieldState.invalid}
-            className={twMerge("bg-slate-800 flex items-center rounded border-2 focus-within:border-sky-700 aria-invalid:focus-within:border-gemini-error aria-invalid:border-gemini-error transition-colors duration-200", wrapperClassName)}
+            className={twMerge("bg-white px-3 py-2 flex items-center rounded border-2 focus-within:border-deep-carrot-orange aria-invalid:focus-within:border-gemini-error aria-invalid:border-gemini-error transition-colors duration-200", wrapperClassName)}
         >
             <input
                 {...props}
-                className={twMerge("text-white bg-slate-800 w-full outline-none border border-transparent rounded-sm px-2 py-1 transition-colors duration-200", className)}
+                className={twMerge("w-full bg-transparent outline-none border border-transparent rounded-sm transition-colors duration-200", className)}
                 ref={field.ref}
                 name={field.name}
                 value={field.value ?? ""}
